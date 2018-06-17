@@ -1,5 +1,5 @@
 
----[ Spring tracing sample - Links ]---
+---[ Spring OpenTracing sample - Links ]---
 
 
 ---[ Theory
@@ -11,20 +11,13 @@ http://www.hawkular.org/blog/2017/06/9/opentracing-spring-boot.html
 https://www.jaegertracing.io/docs/getting-started/
 https://www.jaegertracing.io/docs/deployment/
 https://sematext.com/blog/opentracing-jaeger-as-distributed-tracer/
-[zipkin]
-http://www.baeldung.com/tracing-services-with-zipkin
 
 IN PROGRESS
 -
 
 TODO
-[zipkin]
-https://sematext.com/blog/opentracing-zipkin-as-distributed-tracer/
-
-[spring cloud sleuth]
-https://howtodoinjava.com/spring/spring-cloud/spring-cloud-zipkin-sleuth-tutorial/
-
 [k8s]
+https://medium.com/jaegertracing/jaeger-helm-chart-simplifying-deployment-48056217730f
 https://developers.redhat.com/blog/2017/07/10/using-opentracing-with-jaeger-to-collect-application-metrics-in-kubernetes/
 
 

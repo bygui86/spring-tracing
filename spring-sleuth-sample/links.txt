@@ -1,16 +1,10 @@
 
----[ Spring tracing sample - Links ]---
+---[ Spring Cloud Sleuth sample - Links ]---
 
 
 ---[ Theory
 
 DONE
-[open-tracing]
-http://www.hawkular.org/blog/2017/06/9/opentracing-spring-boot.html
-[jaeger]
-https://www.jaegertracing.io/docs/getting-started/
-https://www.jaegertracing.io/docs/deployment/
-https://sematext.com/blog/opentracing-jaeger-as-distributed-tracer/
 [zipkin]
 http://www.baeldung.com/tracing-services-with-zipkin
 
@@ -23,9 +17,6 @@ https://sematext.com/blog/opentracing-zipkin-as-distributed-tracer/
 
 [spring cloud sleuth]
 https://howtodoinjava.com/spring/spring-cloud/spring-cloud-zipkin-sleuth-tutorial/
-
-[k8s]
-https://developers.redhat.com/blog/2017/07/10/using-opentracing-with-jaeger-to-collect-application-metrics-in-kubernetes/
 
 
 ---[ Frameworks/Platforms
@@ -40,12 +31,7 @@ https://stackoverflow.com/questions/36151421/could-not-autowire-fieldresttemplat
 
 ---[ Repo / Examples
 
-https://github.com/opentracing-contrib/java-spring-cloud
-https://github.com/opentracing-contrib/java-spring-jaeger
-https://github.com/opentracing-contrib/java-spring-zipkin
-https://github.com/snowdrop/jaeger-opentracing/tree/master/spring-boot-jaeger-example
-[deprecated]
-https://github.com/pavolloffay/opentracing-java-examples
+-
 
 
 ---[ Others

@@ -15,6 +15,21 @@
 
 ---[ Zipkin
 	docker run -d --rm --name zipkin \
-		-p 9411:9411 \
+		-p 9410:9410 -p 9411:9411 \
 		--net bridge --add-host=<DOCKER_HOST_NAME>:<DOCKER_HOST_IP> \
 		openzipkin/zipkin
+
+
+---[ Links
+	-[ Jaeger
+	https://www.jaegertracing.io/
+	https://github.com/jaegertracing/jaeger
+	https://github.com/jaegertracing/jaeger/tree/master/docker-compose
+	https://github.com/jaegertracing/jaeger-kubernetes
+	https://github.com/kubernetes/charts/tree/master/incubator/jaeger
+
+	-[ Zipkin
+	http://zipkin.io
+	https://github.com/openzipkin/zipkin
+	https://github.com/openzipkin/docker-zipkin
+	https://github.com/openzipkin/brave
