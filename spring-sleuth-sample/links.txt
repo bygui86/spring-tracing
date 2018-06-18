@@ -16,6 +16,7 @@ TODO
 https://sematext.com/blog/opentracing-zipkin-as-distributed-tracer/
 
 [spring cloud sleuth]
+http://www.baeldung.com/spring-cloud-sleuth-single-application
 https://howtodoinjava.com/spring/spring-cloud/spring-cloud-zipkin-sleuth-tutorial/
 
 
