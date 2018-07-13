@@ -18,11 +18,11 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class SampleController {
 
-	static final String HELLO_URL = "http://localhost:10002/hello";
+	static final String HELLO_URL = "http://localhost:10003/hello";
 
-	static final String CHAINING_URL = "http://localhost:10002/chaining";
+	static final String CHAINING_URL = "http://localhost:10003/chaining";
 
-	static final String ANOTHER_URL = "http://localhost:10002/another";
+	static final String ANOTHER_URL = "http://localhost:10003/another";
 
 	@Autowired
 	RestTemplate restTemplate;
