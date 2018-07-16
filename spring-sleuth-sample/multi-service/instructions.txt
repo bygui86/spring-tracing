@@ -25,4 +25,4 @@ You must have installed:
 	$ make run
 
 4. do some calls to following links in order to see traces in zipkin server
-	http://localhost:10002/hello
+	http://localhost:10002/caller

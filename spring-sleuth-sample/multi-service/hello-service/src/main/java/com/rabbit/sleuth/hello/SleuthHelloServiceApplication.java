@@ -1,14 +1,14 @@
-package com.rabbit.sleuth.caller;
+package com.rabbit.sleuth.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class CallerServiceApplication {
+public class SleuthHelloServiceApplication {
 
 	public static void main(final String[] args) {
 
-		SpringApplication.run(CallerServiceApplication.class, args);
+		SpringApplication.run(SleuthHelloServiceApplication.class, args);
 	}
 }

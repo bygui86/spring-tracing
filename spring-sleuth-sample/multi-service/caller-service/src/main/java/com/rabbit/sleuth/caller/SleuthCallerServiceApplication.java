@@ -1,14 +1,14 @@
-package com.rabbit.sleuth.mono;
+package com.rabbit.sleuth.caller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class MonoServiceApplication {
+public class SleuthCallerServiceApplication {
 
 	public static void main(final String[] args) {
 
-		SpringApplication.run(MonoServiceApplication.class, args);
+		SpringApplication.run(SleuthCallerServiceApplication.class, args);
 	}
 }
