@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.rabbitshop</groupId>
-	<artifactId>spring-opentracing-sample</artifactId>
+	<groupId>com.rabbit.sleuth</groupId>
+	<artifactId>caller-service</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
-	<name>spring-opentracing-sample</name>
-	<description>Distributed tracing sample project based on OpenTracing</description>
+	<name>caller-service</name>
+	<description>Distributed tracing sample project based on Spring Cloud Sleuth - Caller service</description>
 
 	<properties>
 		<!-- general -->
@@ -20,13 +20,12 @@
 
 		<!-- maven -->
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
+		<!--<maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>-->
 
 		<!-- spring -->
 		<spring-boot.version>2.0.2.RELEASE</spring-boot.version>
+		<!-- spring-cloud version 2.0.0 is buggy together with spring-boot ecosystem -->
 		<spring-cloud.version>Finchley.RC2</spring-cloud.version>
-
-		<!-- tracing -->
-		<opentracing-starter.version>0.1.13</opentracing-starter.version>
 
 		<!-- logging -->
 		<slf4.version>1.7.25</slf4.version>
@@ -92,18 +91,12 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<!-- opentracing -->
-		<!-- jaeger -->
+		<!-- tracing -->
+
+		<!-- spring cloud sleuth + zipkin -->
 		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-spring-cloud-starter-jaeger</artifactId>
-			<version>${opentracing-starter.version}</version>
-		</dependency>
-		<!-- zipkin -->
-		<dependency>
-			<groupId>io.opentracing.contrib</groupId>
-			<artifactId>opentracing-spring-cloud-starter-zipkin</artifactId>
-			<version>${opentracing-starter.version}</version>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
 
 		<!-- application server-->
@@ -111,6 +104,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jetty</artifactId>
 		</dependency>
+		<!--<dependency>-->
+		<!--<groupId>org.springframework.boot</groupId>-->
+		<!--<artifactId>spring-boot-starter-undertow</artifactId>-->
+		<!--</dependency>-->
 
 		<!-- logging -->
 		<dependency>
