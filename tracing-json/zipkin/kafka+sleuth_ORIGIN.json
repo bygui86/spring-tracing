@@ -1,0 +1,232 @@
+[
+	[
+		{
+			"traceId": "afd4c30b28407b1a",
+			"id": "afd4c30b28407b1a",
+			"name": "send-inventory-sub-message",
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"tags": {
+				"class": "KafkaProducerSchedulerImpl",
+				"method": "sendInventorySubMessage"
+			}
+		},
+		{
+			"traceId": "afd4c30b28407b1a",
+			"parentId": "afd4c30b28407b1a",
+			"id": "2a37bf7182c4c665",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531848632050904,
+			"duration": 3828,
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"remoteEndpoint": {
+				"serviceName": "kafka"
+			},
+			"tags": {
+				"kafka.topic": "inventory"
+			}
+		},
+		{
+			"traceId": "afd4c30b28407b1a",
+			"parentId": "2a37bf7182c4c665",
+			"id": "f4b0c014a1e05d19",
+			"name": "on-message",
+			"timestamp": 1531848632055025,
+			"duration": 293,
+			"localEndpoint": {
+				"serviceName": "kafka-consumer",
+				"ipv4": "192.168.8.100"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "c6180c303b5104c2",
+			"id": "c6180c303b5104c2",
+			"name": "send-inventory-add-message",
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"tags": {
+				"class": "KafkaProducerSchedulerImpl",
+				"method": "sendInventoryAddMessage"
+			}
+		},
+		{
+			"traceId": "c6180c303b5104c2",
+			"parentId": "c6180c303b5104c2",
+			"id": "60965ec58e02b68d",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531848630051637,
+			"duration": 3537,
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"remoteEndpoint": {
+				"serviceName": "kafka"
+			},
+			"tags": {
+				"kafka.topic": "inventory"
+			}
+		},
+		{
+			"traceId": "c6180c303b5104c2",
+			"parentId": "60965ec58e02b68d",
+			"id": "1e5863096c45647b",
+			"name": "on-message",
+			"timestamp": 1531848630055021,
+			"duration": 287,
+			"localEndpoint": {
+				"serviceName": "kafka-consumer",
+				"ipv4": "192.168.8.100"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "baf460814185c0e1",
+			"id": "baf460814185c0e1",
+			"name": "send-inventory-sub-message",
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"tags": {
+				"class": "KafkaProducerSchedulerImpl",
+				"method": "sendInventorySubMessage"
+			}
+		},
+		{
+			"traceId": "baf460814185c0e1",
+			"parentId": "baf460814185c0e1",
+			"id": "c222bf1681af12e7",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531848627051170,
+			"duration": 4486,
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"remoteEndpoint": {
+				"serviceName": "kafka"
+			},
+			"tags": {
+				"kafka.topic": "inventory"
+			}
+		},
+		{
+			"traceId": "baf460814185c0e1",
+			"parentId": "c222bf1681af12e7",
+			"id": "4521907b20d7e2a0",
+			"name": "on-message",
+			"timestamp": 1531848627056029,
+			"duration": 342,
+			"localEndpoint": {
+				"serviceName": "kafka-consumer",
+				"ipv4": "192.168.8.100"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "402aba94721f59b2",
+			"id": "402aba94721f59b2",
+			"name": "send-inventory-sub-message",
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"tags": {
+				"class": "KafkaProducerSchedulerImpl",
+				"method": "sendInventorySubMessage"
+			}
+		},
+		{
+			"traceId": "402aba94721f59b2",
+			"parentId": "402aba94721f59b2",
+			"id": "f1a7f4ea12c75733",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531848622051154,
+			"duration": 3881,
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"remoteEndpoint": {
+				"serviceName": "kafka"
+			},
+			"tags": {
+				"kafka.topic": "inventory"
+			}
+		},
+		{
+			"traceId": "402aba94721f59b2",
+			"parentId": "f1a7f4ea12c75733",
+			"id": "aa91ba5dff386017",
+			"name": "on-message",
+			"timestamp": 1531848622055023,
+			"duration": 337,
+			"localEndpoint": {
+				"serviceName": "kafka-consumer",
+				"ipv4": "192.168.8.100"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "936605874bececef",
+			"id": "936605874bececef",
+			"name": "send-inventory-add-message",
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"tags": {
+				"class": "KafkaProducerSchedulerImpl",
+				"method": "sendInventoryAddMessage"
+			}
+		},
+		{
+			"traceId": "936605874bececef",
+			"parentId": "936605874bececef",
+			"id": "a3063eb120345349",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531848620150730,
+			"duration": 165854,
+			"localEndpoint": {
+				"serviceName": "kafka-producer",
+				"ipv4": "192.168.8.100"
+			},
+			"remoteEndpoint": {
+				"serviceName": "kafka"
+			},
+			"tags": {
+				"kafka.topic": "inventory"
+			}
+		},
+		{
+			"traceId": "936605874bececef",
+			"parentId": "a3063eb120345349",
+			"id": "bd6f3e5e36033a03",
+			"name": "on-message",
+			"timestamp": 1531848620400432,
+			"duration": 7817,
+			"localEndpoint": {
+				"serviceName": "kafka-consumer",
+				"ipv4": "192.168.8.100"
+			}
+		}
+	]
+]

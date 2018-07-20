@@ -1,0 +1,197 @@
+[
+	[
+		{
+			"traceId": "f1b27013d86f60c7",
+			"id": "f1b27013d86f60c7",
+			"kind": "SERVER",
+			"name": "get /caller",
+			"timestamp": 1531852361310153,
+			"duration": 15703,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv6": "::1",
+				"port": 50989
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/caller",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "chaining"
+			}
+		},
+		{
+			"traceId": "f1b27013d86f60c7",
+			"parentId": "f1b27013d86f60c7",
+			"id": "e114c2a8ca6998b8",
+			"kind": "CLIENT",
+			"name": "get",
+			"timestamp": 1531852361315424,
+			"duration": 8270,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello"
+			}
+		},
+		{
+			"traceId": "f1b27013d86f60c7",
+			"parentId": "f1b27013d86f60c7",
+			"id": "e114c2a8ca6998b8",
+			"kind": "SERVER",
+			"name": "get /hello",
+			"timestamp": 1531852361317119,
+			"duration": 7194,
+			"localEndpoint": {
+				"serviceName": "hello-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv4": "127.0.0.1",
+				"port": 50990
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "hello"
+			},
+			"shared": true
+		}
+	],
+	[
+		{
+			"traceId": "e9a853d0df304c07",
+			"parentId": "e9a853d0df304c07",
+			"id": "2e9203c30857837d",
+			"kind": "SERVER",
+			"name": "get /hello",
+			"timestamp": 1531852360957107,
+			"duration": 7507,
+			"localEndpoint": {
+				"serviceName": "hello-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv4": "127.0.0.1",
+				"port": 50990
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "hello"
+			},
+			"shared": true
+		},
+		{
+			"traceId": "e9a853d0df304c07",
+			"parentId": "e9a853d0df304c07",
+			"id": "2e9203c30857837d",
+			"kind": "CLIENT",
+			"name": "get",
+			"timestamp": 1531852360954521,
+			"duration": 9471,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello"
+			}
+		},
+		{
+			"traceId": "e9a853d0df304c07",
+			"id": "e9a853d0df304c07",
+			"kind": "SERVER",
+			"name": "get /caller",
+			"timestamp": 1531852360948128,
+			"duration": 19271,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv6": "::1",
+				"port": 50989
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/caller",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "chaining"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "88eb3b40c0d05a21",
+			"parentId": "88eb3b40c0d05a21",
+			"id": "7072307b9724d281",
+			"kind": "SERVER",
+			"name": "get /hello",
+			"timestamp": 1531852359795540,
+			"duration": 79217,
+			"localEndpoint": {
+				"serviceName": "hello-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv4": "127.0.0.1",
+				"port": 50990
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "hello"
+			},
+			"shared": true
+		},
+		{
+			"traceId": "88eb3b40c0d05a21",
+			"parentId": "88eb3b40c0d05a21",
+			"id": "7072307b9724d281",
+			"kind": "CLIENT",
+			"name": "get",
+			"timestamp": 1531852359698378,
+			"duration": 169017,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/hello"
+			}
+		},
+		{
+			"traceId": "88eb3b40c0d05a21",
+			"id": "88eb3b40c0d05a21",
+			"kind": "SERVER",
+			"name": "get /caller",
+			"timestamp": 1531852359641645,
+			"duration": 264604,
+			"localEndpoint": {
+				"serviceName": "caller-service",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"ipv6": "::1",
+				"port": 50989
+			},
+			"tags": {
+				"http.method": "GET",
+				"http.path": "/caller",
+				"mvc.controller.class": "SampleController",
+				"mvc.controller.method": "chaining"
+			}
+		}
+	]
+]

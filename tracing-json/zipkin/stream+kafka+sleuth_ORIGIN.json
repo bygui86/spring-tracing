@@ -1,0 +1,906 @@
+[
+	[
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "a084579dd6d8fdd2",
+			"id": "e04bf5c0f55e9c75",
+			"kind": "CONSUMER",
+			"timestamp": 1531920464968156,
+			"duration": 11,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "e04bf5c0f55e9c75",
+			"id": "2fcfbe31dd8656bd",
+			"name": "handle",
+			"timestamp": 1531920464968012,
+			"duration": 374,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "cd6acf9a7dc6c75e",
+			"id": "a084579dd6d8fdd2",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920464968029,
+			"duration": 685,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "cd6acf9a7dc6c75e",
+			"id": "71668833703ff210",
+			"kind": "CONSUMER",
+			"timestamp": 1531920464962419,
+			"duration": 18,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "71668833703ff210",
+			"id": "a554aefac5969ec3",
+			"name": "handle",
+			"timestamp": 1531920464962017,
+			"duration": 1280,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"parentId": "4ebf0e14f99ce877",
+			"id": "cd6acf9a7dc6c75e",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920464962250,
+			"duration": 1730,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "4ebf0e14f99ce877",
+			"id": "4ebf0e14f99ce877",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "7d4cddb3b85a061b",
+			"id": "5315f534a8171093",
+			"kind": "CONSUMER",
+			"timestamp": 1531920461969193,
+			"duration": 14,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "5315f534a8171093",
+			"id": "82f6ef0258757dfc",
+			"name": "handle",
+			"timestamp": 1531920461969015,
+			"duration": 439,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "0d0c2bb1c24825c4",
+			"id": "7d4cddb3b85a061b",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920461969028,
+			"duration": 798,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "0d0c2bb1c24825c4",
+			"id": "6ef3e339746c0c8e",
+			"kind": "CONSUMER",
+			"timestamp": 1531920461962955,
+			"duration": 19,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "6ef3e339746c0c8e",
+			"id": "6e0fcc502ca6dea4",
+			"name": "handle",
+			"timestamp": 1531920461963017,
+			"duration": 1151,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"parentId": "3df8bfe0208f6500",
+			"id": "0d0c2bb1c24825c4",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920461962803,
+			"duration": 1616,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "3df8bfe0208f6500",
+			"id": "3df8bfe0208f6500",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "5b3a627c30d53c73",
+			"id": "4f8a001d12ad007e",
+			"kind": "CONSUMER",
+			"timestamp": 1531920458972163,
+			"duration": 29,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "4f8a001d12ad007e",
+			"id": "064c82dc1e821dd2",
+			"name": "handle",
+			"timestamp": 1531920458972009,
+			"duration": 385,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "e383338c761f43a3",
+			"id": "5b3a627c30d53c73",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920458972017,
+			"duration": 698,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "e383338c761f43a3",
+			"id": "943a93f223616326",
+			"kind": "CONSUMER",
+			"timestamp": 1531920458962570,
+			"duration": 21,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "943a93f223616326",
+			"id": "91597d64040f24a5",
+			"name": "handle",
+			"timestamp": 1531920458963031,
+			"duration": 1422,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"parentId": "15705efce3d9aa33",
+			"id": "e383338c761f43a3",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920458962369,
+			"duration": 1891,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "15705efce3d9aa33",
+			"id": "15705efce3d9aa33",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "7a5587ea1479d3c1",
+			"id": "96e087353ef7b221",
+			"kind": "CONSUMER",
+			"timestamp": 1531920455967146,
+			"duration": 27,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "96e087353ef7b221",
+			"id": "b14fda2d3dbe0147",
+			"name": "handle",
+			"timestamp": 1531920455967025,
+			"duration": 348,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "0663e1696d57df4d",
+			"id": "7a5587ea1479d3c1",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920455967023,
+			"duration": 729,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "0663e1696d57df4d",
+			"id": "ffdfbe82d9a00ab2",
+			"kind": "CONSUMER",
+			"timestamp": 1531920455961451,
+			"duration": 13,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "ffdfbe82d9a00ab2",
+			"id": "e6720e8d17f1fd78",
+			"name": "handle",
+			"timestamp": 1531920455962013,
+			"duration": 871,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"parentId": "64b2b2a6e7b9ac71",
+			"id": "0663e1696d57df4d",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920455961334,
+			"duration": 1149,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "64b2b2a6e7b9ac71",
+			"id": "64b2b2a6e7b9ac71",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "0b3eb86a9c7f85e5",
+			"id": "5f5ac4545691ff93",
+			"kind": "CONSUMER",
+			"timestamp": 1531920452971133,
+			"duration": 10,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "5f5ac4545691ff93",
+			"id": "54eadd33cad3f633",
+			"name": "handle",
+			"timestamp": 1531920452971008,
+			"duration": 280,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "27233226effbbbfd",
+			"id": "0b3eb86a9c7f85e5",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920452971016,
+			"duration": 542,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "27233226effbbbfd",
+			"id": "212abfa491126dc3",
+			"kind": "CONSUMER",
+			"timestamp": 1531920452964699,
+			"duration": 17,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "212abfa491126dc3",
+			"id": "15cbf0b3bbc85ca9",
+			"name": "handle",
+			"timestamp": 1531920452965018,
+			"duration": 1395,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"parentId": "d8db2c04c796a53a",
+			"id": "27233226effbbbfd",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920452964511,
+			"duration": 1790,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "d8db2c04c796a53a",
+			"id": "d8db2c04c796a53a",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "64a200878f4e8d5e",
+			"id": "dcf6f87997a58b89",
+			"kind": "CONSUMER",
+			"timestamp": 1531920449970131,
+			"duration": 12,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "dcf6f87997a58b89",
+			"id": "e31728c6c1b183fc",
+			"name": "handle",
+			"timestamp": 1531920449971010,
+			"duration": 299,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "d9a231be058c7f94",
+			"id": "64a200878f4e8d5e",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920449970019,
+			"duration": 569,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "d9a231be058c7f94",
+			"id": "90c5d86934185f27",
+			"kind": "CONSUMER",
+			"timestamp": 1531920449964468,
+			"duration": 12,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "90c5d86934185f27",
+			"id": "2d956ff87e6dfad3",
+			"name": "handle",
+			"timestamp": 1531920449965011,
+			"duration": 1508,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"parentId": "f0bcc3e5332b8fa9",
+			"id": "d9a231be058c7f94",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920449964323,
+			"duration": 1824,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "f0bcc3e5332b8fa9",
+			"id": "f0bcc3e5332b8fa9",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "d66b5d8e6a658217",
+			"id": "1757939a722bffa7",
+			"kind": "CONSUMER",
+			"timestamp": 1531920446969153,
+			"duration": 13,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "1757939a722bffa7",
+			"id": "3494a7c42c0d09ff",
+			"name": "handle",
+			"timestamp": 1531920446969012,
+			"duration": 319,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "08f9c1b5ea62668a",
+			"id": "d66b5d8e6a658217",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920446969023,
+			"duration": 620,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "08f9c1b5ea62668a",
+			"id": "ffea9bba2b31d138",
+			"kind": "CONSUMER",
+			"timestamp": 1531920446963405,
+			"duration": 36,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "ffea9bba2b31d138",
+			"id": "137d7e98a567604f",
+			"name": "handle",
+			"timestamp": 1531920446963019,
+			"duration": 1632,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"parentId": "6aa0719e8aceb576",
+			"id": "08f9c1b5ea62668a",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920446963237,
+			"duration": 2054,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "6aa0719e8aceb576",
+			"id": "6aa0719e8aceb576",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	],
+	[
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "d2105e2117196b91",
+			"id": "c72408a5b5c81426",
+			"kind": "CONSUMER",
+			"timestamp": 1531920444166332,
+			"duration": 25,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "c72408a5b5c81426",
+			"id": "1754e6f3964c3912",
+			"name": "handle",
+			"timestamp": 1531920444167017,
+			"duration": 3059,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "4af697afea32dbee",
+			"id": "d2105e2117196b91",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920444165620,
+			"duration": 5297,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-sink",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "input"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "4af697afea32dbee",
+			"id": "9d4e9ae76902a88b",
+			"kind": "CONSUMER",
+			"timestamp": 1531920444016877,
+			"duration": 28,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "9d4e9ae76902a88b",
+			"id": "35c3896fc71bec7f",
+			"name": "handle",
+			"timestamp": 1531920444019012,
+			"duration": 48918,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"parentId": "4676cd30bedbffdc",
+			"id": "4af697afea32dbee",
+			"kind": "PRODUCER",
+			"name": "send",
+			"timestamp": 1531920444016592,
+			"duration": 50707,
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"remoteEndpoint": {
+				"serviceName": "broker"
+			},
+			"tags": {
+				"channel": "output"
+			}
+		},
+		{
+			"traceId": "4676cd30bedbffdc",
+			"id": "4676cd30bedbffdc",
+			"name": "send-time-message",
+			"localEndpoint": {
+				"serviceName": "spring-cloud-stream-source",
+				"ipv4": "192.168.178.21"
+			},
+			"tags": {
+				"class": "SourceSchedulerService",
+				"method": "sendTimeMessage"
+			}
+		}
+	]
+]
