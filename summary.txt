@@ -1,0 +1,76 @@
+
+---[ Tracing ]---
+
+# COMM
+	spring-web
+	spring-kafka
+	spring-cloud-stream-rabbitmq
+	spring-cloud-stream-kafka
+
+# TRAC
+	spring-cloud-sleuth
+	opentracing-jaeger
+	opentracing-zipkin
+	apache skywalking
+		https://github.com/apache/incubator-skywalking
+
+# TEST
+	[WORKING]
+	spring-web-mono
+	spring-cloud-sleuth
+
+	[WORKING]
+	spring-web-multi
+	spring-cloud-sleuth
+	
+	[WORKING]
+	spring-web-mono
+	opentracing-zipkin
+
+	[WORKING]
+	spring-web-multi
+	opentracing-zipkin
+
+	[WORKING]
+	spring-web-mono
+	opentracing-jaeger
+
+	[WORKING]
+	spring-web-multi
+	opentracing-jaeger
+
+	[TRACING-NOT-WORKING]
+	spring-kafka
+	spring-cloud-sleuth
+
+	[TRACING-NOT-WORKING]
+	spring-kafka
+	opentracing-zipkin
+
+	[TRACING-NOT-WORKING]
+	spring-kafka
+	opentracing-jaeger
+
+	[TRACING-NOT-WORKING]
+	spring-cloud-stream-rabbitmq
+	spring-cloud-sleuth
+
+	[TRACING-NOT-WORKING]
+	spring-cloud-stream-kafka
+	spring-cloud-sleuth
+
+	[NOT-TESTED]
+	spring-cloud-stream-kafka
+	opentracing-zipkin
+
+	[NOT-TESTED]
+	spring-cloud-stream-rabbitmq
+	opentracing-zipkin
+
+	[WORKING]
+	spring-cloud-stream-kafka
+	opentracing-jaeger
+
+	[NOT-TESTED]
+	spring-cloud-stream-rabbitmq
+	opentracing-jaeger
