@@ -12,6 +12,9 @@ IN PROGRESS
 -
 
 TODO
+[sleuth + kafka]
+https://github.com/timtebeek/sleuth-kafkalistener
+
 [zipkin]
 https://sematext.com/blog/opentracing-zipkin-as-distributed-tracer/
 
